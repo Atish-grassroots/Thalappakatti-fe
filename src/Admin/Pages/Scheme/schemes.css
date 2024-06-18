@@ -1,0 +1,66 @@
+/* Modal Header */
+.modal-header {
+    background-color: #343a40;
+    color: white;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .modal-header .close {
+    color: white;
+    opacity: 1;
+  }
+  
+  .modal-header .close:hover {
+    color: #d3d3d3;
+  }
+  
+  /* Modal Body */
+  .modal-body {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  /* Modal Footer */
+  .modal-footer {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  /* Form Controls */
+  .modal-body .form-control {
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-body .form-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Buttons */
+  .modal-footer .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-footer .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  

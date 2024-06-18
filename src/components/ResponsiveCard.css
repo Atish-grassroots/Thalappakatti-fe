@@ -1,0 +1,86 @@
+.ResponsiveCard {
+  position: relative;
+  width: 100%;
+  max-width: 260px;
+  height: 340px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.ResponsiveCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+.card-content {
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.card-content h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-content h2 span {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #777;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.data h3 {
+  font-size: 1em;
+  color: #555;
+  font-weight: 600;
+}
+
+.data h3 span {
+  display: block;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: #999;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.action-buttons button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.action-buttons button:hover {
+  background: #0056b3;
+}
